@@ -1,4 +1,5 @@
 body{
+    margin: 0px;
     font-family: 'Poppins', sans-serif;
 }
 h1{
@@ -10,10 +11,45 @@ h1{
 }
 .half-width{
     width: 40%;
-    float: left;
+    float: left; 
     margin-left: 5%;
     padding-left: 2%;
 }
 .half-width img{
     width: 100%;
+}
+.top-banner{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+}
+.link-button{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 10px;
+    background-image: linear-gradient(45deg, rgb(23, 69, 221), rgb(30, 204, 131));
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 800;
+}
+
+.nd-width{
+    width: 40%;
+    float: right; 
+    margin-right: 5%;
+    padding-right: 2%;
+}
+.nd-width img{
+     width: 100%;
+}
+.nd-button{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 10px;
+    background-image: linear-gradient(45deg, rgb(221, 23, 155), rgb(224, 221, 30));
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 800; 
 }
